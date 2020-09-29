@@ -34,6 +34,17 @@ include 'book.php';
 
     }
 
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #ae7be0;
+        color: white;
+        text-align: center;
+
+    }
+
     form {
         margin-top: 20px;
     }
@@ -47,7 +58,7 @@ include 'book.php';
     }
 
     input[type="submit"] {
-        background: #4CAF50;
+        background: #ae7be0;
         color: #fff;
         cursor: pointer;
         border: 1px solid #535544;
@@ -106,13 +117,14 @@ include 'book.php';
         input[type="submit"] {
             width: 100%;
         }
+
+
     }
     </style>
 </head>
 
 <body>
     <div class="container">
-        //iterate over arrays
         <?foreach($gb as $text) {?>
         <?= ($text) ?><br><br>
         <?}?>
@@ -130,6 +142,9 @@ include 'book.php';
             .value); //no need to put your name again if page restarts, we save the name in localStorage
     }
     </script>
+    <div class="footer">
+        <p>Becode 2020 Oyuna</p>
+    </div>
 </body>
 
 </html>
