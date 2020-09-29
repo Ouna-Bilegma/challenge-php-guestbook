@@ -1,6 +1,6 @@
 <?php
 $file = "book.txt"; //create text document to save all messages
-$data = date('Y-m-d\TH:i:s' . 'eu'); //date format
+$data = date('Y-m-d\TH:i:s' . 'CEST'); //date format
 $text = $_REQUEST['text']; //global variable
 $name = $_REQUEST['name'];
 if (@$_REQUEST['add']) {

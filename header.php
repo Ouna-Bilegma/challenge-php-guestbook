@@ -1,17 +1,4 @@
- <!DOCTYPE html>
- <html lang="en">
+<div class="header">
 
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
- </head>
-
- <body>
-     <div class="header">
-
-         <p>Guestbook challenge PHP</p>
-     </div>
- </body>
-
- </html>
+    <p>Guestbook challenge PHP</p>
+</div>
