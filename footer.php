@@ -1,3 +1,16 @@
- <div class="footer">
-     <p>Becode 2020 Oyuna</p>
- </div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="footer">
+        <p>Becode 2020 Oyuna</p>
+    </div>
+</body>
+
+</html>
