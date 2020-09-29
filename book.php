@@ -1,7 +1,7 @@
 <?php
-$file = "book.txt";
-$data = date('Y-m-d\TH:i:s' . 'eu');
-$text = $_REQUEST['text'];
+$file = "book.txt"; //create text document to save all messages
+$data = date('Y-m-d\TH:i:s' . 'eu'); //date format
+$text = $_REQUEST['text']; //global variable
 $name = $_REQUEST['name'];
 if (@$_REQUEST['add']) {
   $f = fopen($file, "a");

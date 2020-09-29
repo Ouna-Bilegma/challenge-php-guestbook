@@ -112,20 +112,22 @@ include 'book.php';
 
 <body>
     <div class="container">
+        //iterate over arrays
         <?foreach($gb as $text) {?>
         <?= ($text) ?><br><br>
         <?}?>
         <form action="<?= $_SERVER['SCRIPT_NAME'] ?>" method="POST" id="form">
             <input type="text" name="name" placeholder="Name" id="name">
             <textarea name="text" placeholder="Text"></textarea><br>
-            <input type="submit" name="add" value="Add your note">
+            <input type="submit" name="add" value="Add your note 😀">
         </form>
     </div>
     <script>
     var i2 = document.querySelector('#name');
     i2.value = localStorage.getItem('names');
     i2.oninput = function() {
-        localStorage.setItem('names', i2.value);
+        localStorage.setItem('names', i2
+            .value); //no need to put your name again if page restarts, we save the name in localStorage
     }
     </script>
 </body>
